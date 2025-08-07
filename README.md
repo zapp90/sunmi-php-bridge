@@ -18,13 +18,21 @@
 
 ```
 sunmi-php-bridge/
-├── android-sunmi-server/     # Android Studio project
-│   ├── app/src/...           # Java code with Sunmi SDK
-├── php-client-sample/        # PHP POS examples
-│   ├── print.php             # Send receipt to Android
-│   └── test.php              # Test connection
+├── android-sunmi-server/
+│   ├── app/
+│   │   └── src/
+│   │       └── main/
+│   │           └── java/
+│   │               └── com/
+│   │                   └── sunmibridge/
+│   │                       ├── HTTPServer.java
+│   │                       └── MainActivity.java
+├── php-client-sample/
+│   ├── print.php
+│   └── test.php (I'll generate this for you)
 ├── LICENSE
 └── README.md
+
 ```
 
 ---
