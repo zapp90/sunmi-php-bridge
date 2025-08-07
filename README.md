@@ -29,7 +29,7 @@ sunmi-php-bridge/
 │   │                       └── MainActivity.java
 ├── php-client-sample/
 │   ├── print.php
-│   └── test.php (I'll generate this for you)
+│   └── test.php 
 ├── LICENSE
 └── README.md
 
